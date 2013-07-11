@@ -69,10 +69,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'pgsql:host=localhost;dbname=condor',
+			'connectionString' => 'pgsql:host=localhost;dbname=condor-tutorial',
 			'emulatePrepare' => true,
 			'username' => 'postgres',
-			'password' => 'passwd',
+			'password' => 'postgresdba', /*or 'passwd'*/
 			'charset' => 'utf8',
 		),
 		
